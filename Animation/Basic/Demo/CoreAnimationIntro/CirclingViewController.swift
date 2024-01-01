@@ -27,8 +27,6 @@ class CirclingViewController: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(buttonTapped(_:)), for: .primaryActionTriggered)
         
-        boundingRect.backgroundColor = .gray
-        view.addSubview(boundingRect)
         view.addSubview(redView)
         view.addSubview(redCircle)
         view.addSubview(button)
